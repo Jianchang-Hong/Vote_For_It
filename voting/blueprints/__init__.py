@@ -10,7 +10,6 @@ def register_blueprints(app):
         if module_name != '__init__':
             # Dynamically import the module
             module = __import__(f'{__package__}.{module_name}', fromlist=[module_name])
-            
             # Check if the module has a 'bp' or 'blueprint' object (this is the Blueprint)
             if hasattr(module, 'bp'):
                 app.register_blueprint(module.bp)
