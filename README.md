@@ -1,8 +1,8 @@
-# COMP639S2_project_2_Nu
+# Vote For It
 
 ## Introduction
 
-Year of Bird(YOB) is a web application built with Flask for managing user profiles, votes, and more. This application supports user registration, login, profile management, voting, and administrative functions.
+Vote For It(VFI) is a web application built with Flask for managing user profiles, votes, and more. This application supports user registration, login, profile management, voting, and administrative functions.
 
 ## Features
 
